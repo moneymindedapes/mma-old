@@ -1,14 +1,9 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import { Ui } from '@mma/ui';
 
 export function App() {
-  return (
-    <div>
-      <NxWelcome title="mma" />
-    </div>
-  );
+  return <Ui />;
 }
 
 export default App;

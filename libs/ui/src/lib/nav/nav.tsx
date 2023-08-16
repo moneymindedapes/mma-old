@@ -1,5 +1,6 @@
 import styles from './nav.module.css';
 import { Theme } from '../theme/theme';
+import logo from './logo.svg';
 /* eslint-disable-next-line */
 export interface NavProps {}
 
