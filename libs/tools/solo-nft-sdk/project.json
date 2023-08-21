@@ -1,0 +1,37 @@
+{
+  "name": "tools-solo-nft-sdk",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/tools/solo-nft-sdk/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/tools/solo-nft-sdk",
+        "main": "libs/tools/solo-nft-sdk/src/index.ts",
+        "tsConfig": "libs/tools/solo-nft-sdk/tsconfig.lib.json",
+        "assets": ["libs/tools/solo-nft-sdk/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/tools/solo-nft-sdk/**/*.ts",
+          "libs/tools/solo-nft-sdk/package.json"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["coverage/libs/tools/solo-nft-sdk"],
+      "options": {
+        "passWithNoTests": true,
+        "reportsDirectory": "../../../coverage/libs/tools/solo-nft-sdk"
+      }
+    }
+  },
+  "tags": []
+}

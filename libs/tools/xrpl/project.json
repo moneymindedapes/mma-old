@@ -1,0 +1,37 @@
+{
+  "name": "tools--xrpl",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/tools/xrpl/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/tools/xrpl",
+        "main": "libs/tools/xrpl/src/index.ts",
+        "tsConfig": "libs/tools/xrpl/tsconfig.lib.json",
+        "assets": ["libs/tools/xrpl/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/tools/xrpl/**/*.ts",
+          "libs/tools/xrpl/package.json"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["coverage/libs/tools/xrpl"],
+      "options": {
+        "passWithNoTests": true,
+        "reportsDirectory": "../../../coverage/libs/tools/xrpl"
+      }
+    }
+  },
+  "tags": []
+}

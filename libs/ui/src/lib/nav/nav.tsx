@@ -1,6 +1,6 @@
 import styles from './nav.module.css';
 import { Theme } from '../theme/theme';
-import logo from './logo.svg';
+import logo from './logo.png';
 /* eslint-disable-next-line */
 export interface NavProps {}
 
@@ -8,7 +8,7 @@ export function Nav(props: NavProps) {
   return (
     <div className={styles['container']}>
       <div className="navbar bg-base-100">
-        <div className="flex-none">
+        {/* <div className="flex-none">
           <button className="btn btn-square btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +24,9 @@ export function Nav(props: NavProps) {
               ></path>
             </svg>
           </button>
-        </div>
+        </div> */}
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">
+          <a className="btn btn-ghost normal-case text-xl avatar">
             <img src={logo} alt="MMA"></img>
           </a>
           <div className="form-control">
@@ -38,7 +38,7 @@ export function Nav(props: NavProps) {
           </div>
         </div>
 
-        <div className="flex-none">
+        {/* <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
               <a>Link</a>
@@ -57,9 +57,9 @@ export function Nav(props: NavProps) {
               </details>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="flex-none">
-          <div className="dropdown dropdown-end">
+          {/*  <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
               <div className="indicator">
                 <svg
@@ -93,7 +93,7 @@ export function Nav(props: NavProps) {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full">

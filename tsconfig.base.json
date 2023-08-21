@@ -15,6 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@mma/tools//xrpl": ["libs/tools/xrpl/src/index.ts"],
+      "@mma/tools/solo-nft-sdk": ["libs/tools/solo-nft-sdk/src/index.ts"],
       "@mma/ui": ["libs/ui/src/index.ts"]
     }
   },
