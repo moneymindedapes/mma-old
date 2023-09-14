@@ -1,0 +1,64 @@
+[[ACCOUNTS]]
+address = "rJkJAujK2W4Kzrz9JEWtcXHcTt7iTaJ2f2"
+desc = "OG MMA"
+
+[[ACCOUNTS]]
+address = "rDDPTdg9exZGybHcBjHWNeA2vw8scpiiCX"
+desc = "TGA"
+
+[[ACCOUNTS]]
+address = "rJDbbrHXLbU86VbxknbiRzgD3UXuah7yYj"
+desc = "Bottles!"
+
+[[ACCOUNTS]]
+address = "r44MoneyvZgUo8wEidp6NXcghkZ8YVMdkB"
+desc = "community wallet"
+
+[[ACCOUNTS]]
+address = "rKVDThoi5wZGfXua1dZin1U1wtEe5D1XVU"
+desc = "K"
+
+[[ACCOUNTS]]
+address = "rMULA5hkZqsu7545NPnJZfu5ghKxuRbCro"
+desc = "Mula issuer"
+
+[[ACCOUNTS]]
+address = "rMYmma64idd8Wq3HgH7iqiBuUdHLhQYuY4"
+desc = "Mula hot"
+
+[[PRINCIPALS]]
+name = "moneymindedapes" 
+email = "contact@moneymindedapes.com"
+
+[[PRINCIPALS]]
+name = "coov" 
+email = "coov@moneymindedapes.com" 
+
+[[PRINCIPALS]]
+name = "LQQK" 
+email = "lskybank4@gmail.com" 
+
+[[PRINCIPALS]]
+name = "DefiDaemon" 
+email = "contact@moneymindedapes.com" 
+
+[[PRINCIPALS]]
+name = "Mt_10" 
+email = "contact@moneymindedapes.com" 
+
+[[PRINCIPALS]]
+name = "KryptoKonnect" 
+email = "contact@moneymindedapes.com" 
+
+[[PRINCIPALS]]
+name = "crypto pro 612" 
+email = "contact@moneymindedapes.com" 
+
+[[PRINCIPALS]]
+name = "therealdee.xrp" 
+email = "contact@moneymindedapes.com" 
+
+[[CURRENCIES]]
+code = "6D756C6100000000000000000000000000000000"
+issuer = "rMULA5hkZqsu7545NPnJZfu5ghKxuRbCro"
+network = "main"
